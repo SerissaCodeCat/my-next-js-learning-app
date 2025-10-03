@@ -1,0 +1,11 @@
+.item {
+    padding: 1rem;
+    border: 1px solid #e057bd;
+    background-color: rgb(32, 32, 165);
+}
+
+.todoList {
+    padding : 1rem;
+    border: 2px solid #4ade80;
+    background-color: aquamarine;
+}

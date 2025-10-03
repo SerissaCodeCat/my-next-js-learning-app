@@ -6,7 +6,8 @@ child objects will be rendered on the client side.*/
 import React from "react";
 const ClickCountButton = () => {
   return <div>
-    <button onClick={() => alert("You clicked the button! this should increase the count but i dont know how to rep that yet!!\n\nONLY THE BUTTON AND THIS ALERT IS RENDERED CLIENT SIDE")}> Click Me!</button>
+    <button className = 'btn btn-primary'/*this uses Daisy UI's predefined tailwind css styles.*/
+      onClick={() => alert("You clicked the button! this should increase the count but i dont know how to rep that yet!!\n\nONLY THE BUTTON AND THIS ALERT IS RENDERED CLIENT SIDE")}> Click Me!</button>
     </div>
 }
 
